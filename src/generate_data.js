@@ -60,7 +60,7 @@ const main = async function() {
 
   const output = { trie: trie.toBuffer().toString('base64'), classes }
   // write the trie and classes to a file
-  fs.writeFileSync(`./classes-v${UNICODE_VERSION}.mjs`, 'export default ' + JSON.stringify(output))
+  fs.writeFileSync(`./classes-v${UNICODE_VERSION}.js`, 'export default ' + JSON.stringify(output))
 
   const key = []
   for (const n in classes) {

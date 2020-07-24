@@ -1,4 +1,4 @@
-import GraphemeBreaker from '../src/GraphemeBreaker.mjs'
+import GraphemeBreaker from '../src/GraphemeBreaker.js'
 import chai from 'chai'
 import fs from 'fs'
 import punycode from 'punycode'

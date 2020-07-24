@@ -1,8 +1,8 @@
 {
-  "name": "grapheme-breaker-mjs",
+  "name": "grapheme-breaker",
   "version": "1.0.4",
   "description": "An ES Module implementation of the Unicode 13.0.0 grapheme cluster breaking algorithm (UAX #29)",
-  "main": "src/GraphemeBreaker.mjs",
+  "main": "src/GraphemeBreaker.js",
   "directories": {
     "test": "test"
   },
@@ -14,11 +14,11 @@
     "mocha": "^7.1.2"
   },
   "scripts": {
-    "test": "mocha ./test/GraphemeBreaker.mjs"
+    "test": "mocha ./test/GraphemeBreaker.js"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/taisukef/grapheme-breaker-mjs"
+    "url": "git://github.com/propellerfactory/grapheme-breaker"
   },
   "keywords": [
     "unicode",

@@ -1,9 +1,8 @@
-import classesmjs from './classes-v13.0.0.mjs'
+import UnicodeTrie from 'unicode-trie'
+import classesmjs from './classes-v13.0.0.js'
 const trie = classesmjs.trie
 const { Other, Prepend, CR, LF, Control, Extend, Regional_Indicator, SpacingMark, L, V, T, LV, LVT, ZWJ, ExtPict} = classesmjs.classes
 
-//import UnicodeTrie from 'unicode-trie'
-import UnicodeTrie from './unicode-trie/index.mjs'
 
 let data = null
 if (globalThis['window']) {
